@@ -1,0 +1,13 @@
+#extend("base")
+
+#export("head") {
+    <title>#(reminder.title) | Reminders</title>
+}
+
+#export("body") {
+    <div class="container">
+        <h1>#(reminder.title)</h1>
+        <h4>Description</h4>
+        <p>#(reminder.description)</p>
+    </div> <!-- container -->
+}

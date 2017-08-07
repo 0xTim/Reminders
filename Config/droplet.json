@@ -7,6 +7,7 @@
     "//": "engine: Vapor's blazing fast Engine HTTP client.",
     "//": "foundation: A wrapper around Foundation's URLSession.",
     "client": "engine",
+    "view": "leaf",
 
     "//": "The type of console to use for displaying information and prompting input.",
     "//": "terminal: Vapor's default terminal console.",
@@ -32,7 +33,9 @@
     "middleware": [
         "error",
         "date",
-        "file"
+        "file",
+        "sessions",
+        "persist"
     ],
 
     "//": "Choose which commands this application can run",
